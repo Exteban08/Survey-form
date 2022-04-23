@@ -10,202 +10,195 @@
 <body>
     <div class="container">
         <header class="header">
-          <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+          <h1 id="title" class="text-center">ELECTRIC-CARS</h1>
           <p id="description" class="description text-center">
-            Thank you for taking the time to help us improve the platform
+            Please help us fill out the following survey to own a new electric car:
           </p>
         </header>
         <form id="survey-form">
             <div class="form-group">
                 <label id="name-label" for="name">Name</label>
                 <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="form-control"
-                    placeholder="Enter your name"
-                    required
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
                 />
             </div>
             <div class="form-group">
                 <label id="email-label" for="email">Email</label>
                 <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    class="form-control"
-                    placeholder="Enter your Email"
-                    required
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your Email"
+                  required
                 />
             </div>
             <div class="form-group">
                 <label id="number-label" for="number"
-                    >Age<span class="clue">(optional)</span>
+                    >Age
                 </label>
                 <input
-                    type="number"
-                    name="age"
-                    id="number"
-                    min="10"
-                    max="99"
-                    class="form-control"
-                    placeholder="Age"
+                  type="number"
+                  name="age"
+                  id="number"
+                  min="21"
+                  max="99"
+                  class="form-control"
+                  placeholder="Age"
                 />
             </div>
 
             <div class="form-group">
-                <p>Which option best describes your current role?</p>
+                <p>Please choose the model you want:</p>
                 <select id="dropdown" name="role" class="form-control" required>
-                    <option disabled selected value>Select current role</option>
-                    <option value="student">Student</option>
-                    <option value="job">Full Time Job</option>
-                    <option value="learner">Full Time Learner</option>
-                    <option value="preferNo">Prefer not to say</option>
-                    <option value="other">Other</option>
+                  <option disabled selected value>Select an option</option>
+                  <option value="ms">Model S</option>
+                  <option value="mx">Model X</option>
+                  <option value="mb">Model B</option>
+                  <option value="mz">Model Z</option>
+                  <option value="other">Other</option>
                 </select>
             </div>
       
             <div class="form-group">
-                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <p>Please choose the version you want:</p>
                 <label>
                     <input
-                        name="user-recommend"
-                        value="definitely"
-                        type="radio"
-                        class="input-radio"
-                        checked
-                    />Definitely
+                      name="user-recommend"
+                      value="vi"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    />i - $489,000.00
                 </label>
                 <label>
                     <input
                         name="user-recommend"
-                        value="maybe"
+                        value="vq"
                         type="radio"
                         class="input-radio"
-                    />Maybe
+                    />q - $549,000.00
                 </label>
                 <label>
                     <input
                         name="user-recommend"
-                        value="not-sure"
+                        value="vqs"
                         type="radio"
                         class="input-radio"
-                    />Not sure
+                    />q'sport - $649,000.00
                 </label>
             </div>
       
           <div class="form-group">
             <p>
-              What is your favorite feature of freeCodeCamp?
+              Would you like to add something else to your order?
             </p>
             <select id="most-like" name="mostLike" class="form-control" required>
               <option disabled selected value>Select an option</option>
-              <option value="challenges">Challenges</option>
-              <option value="projects">Projects</option>
-              <option value="community">Community</option>
-              <option value="openSource">Open Source</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
             </select>
           </div>
       
           <div class="form-group">
             <p>
-              What would you like to see improved?
-              <span class="clue">(Check all that apply)</span>
+              Please check the item you want to add:
             </p>
       
             <label>
                 <input
                     name="prefer"
-                    value="front-end-projects"
+                    value="phone-holder"
                     type="checkbox"
                     class="input-checkbox"
-                />Front-end Projects
+                />Phone holder
             </label>
 
             <label>
               <input
                 name="prefer"
-                value="back-end-projects"
+                value="spot-remover"
                 type="checkbox"
                 class="input-checkbox"
-              />Back-end Projects
+              />Carpet spot remover 
             </label>
 
             <label>
                 <input
                     name="prefer"
-                    value="data-visualization"
+                    value="hanging-diffuser"
                     type="checkbox"
                     class="input-checkbox"
-                />Data Visualization
+                />Hanging diffuser
             </label>
 
             <label>
                 <input
                     name="prefer"
-                    value="challenges"
+                    value="trunk-organizer"
                     type="checkbox"
                     class="input-checkbox"
-                />Challenges
+                />Folding car trunk organizer
             </label>
 
             <label>
                 <input
                     name="prefer"
-                    value="open-source-community"
+                    value="spot-mirror"
                     type="checkbox"
                     class="input-checkbox"
-                />Open Source Community
+                />Blind spot mirror
             </label>
 
             <label>
                 <input
                     name="prefer"
-                    value="gitter-help-rooms"
+                    value="carseat-cover"
                     type="checkbox"
                     class="input-checkbox"
-                />Gitter help rooms 
+                />Bench car seat cover 
             </label>
-            <label
-              ><input
+
+            <label>
+              <input
                 name="prefer"
-                value="videos"
+                value="stickon-shade"
                 type="checkbox"
                 class="input-checkbox"
-              />Videos</label
-            >
-            <label
-              ><input
+              />Stick-on shade
+            </label>
+
+            <label>
+              <input
                 name="prefer"
-                value="city-meetups"
+                value="floor-mats"
                 type="checkbox"
                 class="input-checkbox"
-              />City Meetups</label
-            >
-            <label
-              ><input
+              />Rubber floor mats 
+            </label>
+
+            <label>
+              <input
                 name="prefer"
-                value="wiki"
+                value="road-kit"
                 type="checkbox"
                 class="input-checkbox"
-              />Wiki</label
-            >
-            <label
-              ><input
+              />Travel road kit
+            </label>
+
+            <label>
+              <input
                 name="prefer"
-                value="forum"
+                value="windshield-sunshade"
                 type="checkbox"
                 class="input-checkbox"
-              />Forum</label
-            >
-            <label
-              ><input
-                name="prefer"
-                value="additional-courses"
-                type="checkbox"
-                class="input-checkbox"
-              />Additional Courses</label
-            >
+              />Windshield sunshade
+            </label>
           </div>
       
           <div class="form-group">

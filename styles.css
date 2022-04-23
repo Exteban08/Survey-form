@@ -3,7 +3,7 @@
 :root {
   --color-white: #f3f3f3;
   --color-darkblue: #1b1b32;
-  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-darkblue-alpha: rgba(40, 40, 114, 0.8);
   --color-green: #37af65;
 }
 
@@ -30,7 +30,7 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: burlywood;
+  background: var(--color-darkblue-alpha);
   background-repeat: no-repeat;
   background-position: center;
 }
